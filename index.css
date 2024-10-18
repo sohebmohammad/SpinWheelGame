@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#img1 {
+  position: relative;
+  left: 403px;
+  top: 200px;
+  z-index: 1;
+  transition: transform 4s ease-out; /* Ensure smooth rotation */
+}
+
+#img0 {
+  height: 80px;
+  width: 50px;
+  position: relative;
+  top: -252px;
+  left: 808px;
+  z-index: 2;
+}
+
+#img01 {
+  height: 100px;
+  width: 170px;
+  position: relative;
+  top: 22px;
+  left: 720px;
+  z-index: 2;
+  cursor: pointer; /* Make it look clickable */
+}
